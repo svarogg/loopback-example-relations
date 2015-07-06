@@ -1,6 +1,14 @@
 {
-  "db": {
-    "name": "db",
-    "connector": "memory"
-  }
+	"db-bu": {
+		"name": "db",
+		"connector": "memory"
+	},
+	"db": {
+		"host": "127.0.0.1",
+		"port": 28015,
+		"database": "test",
+		"name": "db",
+		"defaultForType": "db",
+		"connector": "rethinkdb"
+	}
 }
