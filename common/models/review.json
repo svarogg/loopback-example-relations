@@ -12,10 +12,10 @@
   },
   "validations": [],
   "relations": {
-    "author": {
+    "order": {
       "type": "belongsTo",
-      "model": "Customer",
-      "foreignKey": "authorId"
+      "model": "Order",
+      "foreignKey": ""
     }
   },
   "acls": [],

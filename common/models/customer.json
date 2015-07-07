@@ -12,16 +12,6 @@
   },
   "validations": [],
   "relations": {
-    "reviews": {
-      "type": "hasMany",
-      "model": "Review",
-      "foreignKey": "authorId"
-    },
-    "orders": {
-      "type": "hasMany",
-      "model": "Order",
-      "foreignKey": "customerId"
-    }
   },
   "acls": [],
   "methods": []
