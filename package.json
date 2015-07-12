@@ -13,6 +13,8 @@
     "loopback-boot": "^2.4.0",
     "loopback-datasource-juggler": "^2.7.0",
     "serve-favicon": "^2.0.1",
+    "q": "^1.4.1",
+    "q-foreach": "0.0.3",
     "loopback-connector-rethinkdb": "git://github.com/fuwaneko/loopback-connector-rethinkdb"
   },
   "optionalDependencies": {
